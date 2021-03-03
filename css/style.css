@@ -1,0 +1,215 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+ .wt-50{
+   width: 50%;
+}
+
+.gray{
+  background-color:#D3D3D3 ;
+  width: 100%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header{
+  height: 550px;
+  background-color: #0C325A;
+}
+
+.header-container{
+  width: 100%;
+  height: 100%;
+  min-width: 1400px;
+  padding: 0 10%;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-position: 115% 100%;
+  background-size: 1000px;
+}
+
+.header-menu{
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+ 
+.header-menu li{
+  display: inline;
+  padding: 0 10px;
+}
+
+.header-menu li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 75%;
+}
+
+.logo-nav{
+  width: 15%;
+  margin-top: 10px;
+}
+
+.central-nav{
+  width: 45%;
+}
+
+.right-nav{
+  width: 40%;
+  text-align: right;
+}
+
+/* bottoni */
+
+.btn{
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 10px;
+  line-height:  20px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 75%;
+} 
+
+.btn.btn-vuoto{
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.btn.btn-green{
+  background-color: #7CBB04;
+  border: none;
+}
+
+.btn-grande{
+  padding: 20px;
+}
+
+/* text header */
+
+.jumbotron{
+  position: relative;
+  height: 480px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1{
+  color: white;
+  font-size: 350%;
+  margin-bottom: 25px;
+}
+
+/* MAIN */
+
+/* prima parte */
+.first{
+  margin: auto;
+  height: 140px;
+  margin-bottom: 40px;
+}
+
+.first .school{
+  text-align: center;
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+.school p{
+  font-size: 110%;
+  color: #808080;
+}
+.school p strong{
+  font-size: 140%;
+  color: black;
+}
+
+main .second{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+
+.second .container{
+  padding: 0 10%;
+  margin: auto;
+}
+
+.part-left{
+  width: 30%;
+}
+
+.part-center{
+  width: 30%;
+  margin: 0 2%;
+}
+
+.part-right{
+  width: 30%;
+}
+
+.second img{
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.container p{
+  font-size: 170%;
+  color: #9ACB3C;
+}
+
+.text p{
+  margin-top: 30px;
+  font-size: 100%;
+  color: #808080;
+  line-height: 30px;
+}
+.prima-sezione,.seconda-sezione,.terza-sezione{
+  height: 350px;
+  border-bottom: 1px solid black;
+}
+
+.third{
+  padding: 0 10%;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+.third .mountain img{
+  width: 85%;
+}
+.text-level{
+  position: absolute;
+  top: 10%;
+  width: 70%;
+}
+.level p strong{
+  font-size: 140%;
+  color: black;
+}
