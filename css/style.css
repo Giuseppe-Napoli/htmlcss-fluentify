@@ -5,17 +5,22 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
 
+/* classi che si ripetono */
 .float-left{
   float: left;
 }
 
- .wt-50{
+.wt-50{
    width: 50%;
 }
 
@@ -24,9 +29,15 @@
   width: 100%;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+.line{
+  display: inline-block;
+  width: 20%;
+  background-color: black;
+  height: 1px;
+  text-align: center;
 }
+
+
 
 /* HEADER */
 
@@ -106,6 +117,7 @@ header{
   padding: 20px;
 }
 
+
 /* text header */
 
 .jumbotron{
@@ -152,13 +164,14 @@ header{
 main .second{
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 30px;
+
+ 
 }
 
 .second .container{
   padding: 0 10%;
   margin: auto;
+ 
 }
 
 .part-left{
@@ -192,14 +205,16 @@ main .second{
 }
 .prima-sezione,.seconda-sezione,.terza-sezione{
   height: 350px;
-  border-bottom: 1px solid black;
 }
 
 .third{
-  padding: 0 10%;
-  margin: auto;
+  padding: 0 8%;
+  margin: 30px auto;
   position: relative;
   height: 100%;
+  border-top: 1px solid lightgray;
+  padding-top: 40px;
+  width: 95%;
 }
 .third .mountain img{
   width: 85%;
@@ -207,9 +222,81 @@ main .second{
 .text-level{
   position: absolute;
   top: 10%;
-  width: 70%;
+  width: 30%;
+  min-width: 565px;
 }
-.level p strong{
-  font-size: 140%;
+.level  h3{
+  font-size: 250%;
   color: black;
+  line-height: 40px;
+}
+
+.level p{
+  color: #888888 ;
+  font-size: 120%;
+  padding: 10px 0;
+}
+
+.text-level a{
+  color: #5D8CBF;
+  font-size: 90%;
+}
+
+/* FOOTER */
+
+.container-footer{
+  height: 170px;
+  line-height: 170px;
+  
+}
+
+.contenuti{
+  width: 80%;
+  margin: auto;
+}
+
+.text-footer{
+
+  width: 60%;
+}
+.text-footer h2{
+  font-size: 190%;
+}
+
+.section-footer{
+  display: inline;
+  width: 20%;
+}
+
+
+
+.plane-footer{
+  width: 20%;
+  text-align: right;
+  float:right;
+}
+.plane-footer a{
+  font-size: 90%;
+
+}.seleziona{
+  display: inline;
+  font-size: 1.2em;
+}
+.sono{
+  display: inline;
+}
+.section-footer .sono{
+  padding-right: 30px;
+  color: #848484 ;
+}
+
+.seleziona{
+  border-bottom: 1px solid #848484;
+  font-size: 100%;
+  color: #848484 ;
+
+}
+
+.seleziona i{
+  padding-left: 95px;
 }
